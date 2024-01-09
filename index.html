@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .contenedor {
+            display: grid;
+            grid-template-columns: auto auto;
+            width: 100%;
+            align-items: left;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            margin-left: 40px;
+        }
+        h3 {
+            color: blue;
+            text-align: center;
+        }
+        li {
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+        }
+        @media (max-width: 640px) {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hoja de Vida</h1>
+    <section class="contenedor">
+        <div>
+            <img src="https://images.pexels.com/photos/18410627/pexels-photo-18410627/free-photo-of-blanco-y-negro-ciudad-moda-hombre.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" 
+            alt="fotoreciente">
+        </div>
+        <div>
+            <h3>Datos Básicos</h3>
+            <ul>
+                <li>Edinson Parra Bahos</li>
+                <li>47 años</li>
+                <li>separado</li>
+                <li>Contador Público</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Educación</h3>
+            <ul>
+                <li>Contaduría Pública</li>
+                <li>Especialización NIIF</li>
+                <li>Maestría en Finanzas</li>
+                <li>Diplomado en Marketing</li>
+                <li>Diplomdo en Gerencia de planeación estratégica</li>
+                <li>Diplomado en Revisoría fiscal</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Idiomas</h3>
+            <ul>
+                <li>Ingles</li>
+                <li>Portugues</li>
+                <li>Alemán</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
